@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@500&family=Montserrat+Alternates:wght@500&family=Pathway+Gothic+One&family=Righteous&family=Rowdies&family=Titillium+Web:wght@200&display=swap');
+
+
+/*Main*/
+body{
+    background-image: url(/images/whitebg.jpg);
+    background-size: cover;
+}
+
+/*Navigation Bar*/
+.container-fluid{
+    padding: .5rem 0rem;
+    background-color: white;
+    margin-top: -.5rem;
+}
+#logo{
+    height: 4.6rem;
+    width: 4.6rem;
+    margin-left: 2rem;
+}
+.nav-link{
+    margin: 0rem 1rem;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: gray;
+    font-family: 'Maven Pro', sans-serif;
+}
+.nav-link:hover{
+    border-bottom: .5px blue solid;
+    color: blue;
+}
+#rightNB{
+    margin-right: 2rem;
+}
+
+/*Content - Home Page*/
+#homebody{
+    display: flex;
+    flex-direction: row;
+    margin: 1.3em 2rem; 
+}
+#homebodyTxt{
+    width: 65%;
+    display: inline-block;
+}
+#homebodyCarousel{
+    width: 35%;
+    display: inline-block;
+}
+#intro{
+    margin-bottom: -2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: 'Titillium Web', sans-serif;
+}
+#title{
+    margin: auto;
+    text-align: center;
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+/*footer*/
+ul#shpctg, ul.card-text {
+    font-family: 'Titillium Web', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+ul#shpctg>li, ul.card-text>li{
+    padding: 4px;
+    color:#000000;
+}
+ul#shpctg>li:hover, ul.card-text>li:hover {
+    color: #957bda;
+    cursor: pointer
+}
+#footer {
+    padding: 2% 7%
+}
+.card-text{
+    letter-spacing: 1px;
+    line-height: 2em;
+}
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: black
+}
+.divider {
+    border-top: 2px solid
+}
