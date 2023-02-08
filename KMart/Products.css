@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@500&family=Montserrat+Alternates:wght@500&family=Pathway+Gothic+One&family=Righteous&family=Rowdies&family=Titillium+Web:wght@200&display=swap');
+@import "footer.css";
+
+/*Main*/
+body{
+    background-image: url(/KMart/images/BGImg.png);
+}
+
+/*Navigation Bar*/
+.container-fluid{
+  padding: .5rem 0rem;
+  background-color: white;
+  margin-top: -.5rem;
+}
+#logo{
+  height: 4.6rem;
+  width: 4.6rem;
+  margin-left: 2rem;
+}
+.nav-link{
+  margin: 0rem 1rem;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: gray;
+  font-family: 'Maven Pro', sans-serif;
+}
+.nav-link:hover{
+  border-bottom: .5px blue solid;
+  color: blue;
+}
+#nav-link-highlight{
+    border-bottom: .5px blue solid;
+    background-color: rgb(238, 238, 238);
+    color: blue;
+}
+#rightNB{
+    margin-right: 2rem;
+}
+
+/*Products*/  
+.main{
+  margin: 2%;
+} 
+.card-product{
+  width: 20%;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  background: rgba(255,255,255,0.9);
+  border-radius: 5px; 
+  margin: 2%;
+}   
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.title{
+  text-align: center;
+  padding: 10px;
+}   
+h1.prodTitle{
+  font-size: 3.5em;
+  font-family: 'Pathway Gothic One', sans-serif;
+}   
+.desc{
+  font-size: 1.3em;
+  padding: 1em;
+  text-align: center;
+  padding-top: .3em;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
