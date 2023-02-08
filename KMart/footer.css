@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@500&family=Montserrat+Alternates:wght@500&family=Pathway+Gothic+One&family=Righteous&family=Rowdies&family=Titillium+Web:wght@200&display=swap');
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -16,13 +18,15 @@ ul {
   margin-top: 8px;
 }
 .cta-text {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   padding-left: 15px;
   display: inline-block;
 }
 .cta-text h4 {
   color: rgb(0, 0, 0);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 1000;
   margin-bottom: 2px;
 }
 .cta-text span {
@@ -48,9 +52,11 @@ ul {
     max-width: 100px;
 }
 .footer-text p {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 1000;
   margin-bottom: 14px;
   font-size: 14px;
-      color: #030000;
+  color: #030000;
   line-height: 28px;
 }
 .footer-social-icon span {
