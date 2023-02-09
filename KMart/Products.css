@@ -1,9 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@500&family=Montserrat+Alternates:wght@500&family=Pathway+Gothic+One&family=Righteous&family=Rowdies&family=Titillium+Web:wght@200&display=swap');
 @import "footer.css";
 
+/*VARIABLES*/
+:root{
+  --first-color: #EDDBC0;
+  --second-color: #dcfbef;
+  --third-color: #ffe8df;
+  --accent-color: #ff5151;
+  --dark-color: #161616;
+  --cceonnie: #3d6098;
+  --before: #DC143C;
+  --font:'Inter', sans-serif;
+  --h1-font-size: 1.5rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --smaller-font-size: 0.75rem;
+}
+::after,::before{
+  box-sizing: border-box;
+}
 /*Main*/
 body{
     background-image: url(/KMart/images/BGImg.png);
+    background-size: cover;
+    color: var(--dark-color);
+    font-family: var(--font);
+    height: auto;
 }
 
 /*Navigation Bar*/
@@ -39,49 +61,134 @@ body{
 }
 
 /*Products*/  
+h1{
+  font-size: var(--h1-font-size);
+}
+a{
+  text-decoration: none;
+
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.title-shop{
+  position: relative;
+  margin: 0 2,5rem;
+}
+.title-shop::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 72px;
+  height: 2px;
+  background-color: var(--dark-color);
+  margin-left: .25rem;
+}
 .main{
-  margin: 2%;
-} 
-.card-product{
-  width: 20%;
-  display: inline-block;
-  box-shadow: 2px 2px 20px black;
-  background: rgba(255,255,255,0.9);
-  border-radius: 5px; 
-  margin: 2%;
-}   
-.image img{
-  width: 100%;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  padding: 2rem 0;
 }
-.title{
-  text-align: center;
-  padding: 10px;
-}   
-h1.prodTitle{
-  font-size: 3.5em;
-  font-family: 'Pathway Gothic One', sans-serif;
-}   
-.desc{
-  font-size: 1.3em;
-  padding: 1em;
-  text-align: center;
-  padding-top: .3em;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+.bd-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  max-width: 1200px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  align-items: center;
+  gap: 2rem;
 }
-button{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding:10px;
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: var(--cceonnie);
+
 }
-button:hover{
-  background-color: black;
-  color: white;
+
+.card__image{
+  width: 180px;
+  height: auto;
+  padding: 3rem 0;
   transition: .5s;
-  cursor: pointer;
+}
+.card__precis{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  transition: .5s;
+}
+.card__icon{
+  font-size: 1.5rem;
+  color: var(--dark-color);
+
+}
+.card__icon:hover{
+  color: var(--accent-color);
+}
+.card_preci{
+  display: block;
+  text-align: center;
+}
+.card_preci--before{
+  font-size: var(--smaller-font-size);
+  color: var(--before);
+  text-decoration: line-through;
+}
+.card_preci--now{
+  font-size: var(--h3-font-size);
+  font-weight: bold;
+  color: var(--second-color);
+}
+.card:hover{
+  box-shadow: none;
+}
+.card:hover .card__name{
+  left: 0;
+}
+.card:hover .card__image{
+  transform: rotate(25deg);
+  margin-left: 3.5rem;
+}  
+.card:hover .card__precis{
+  margin-left: 3.5rem;
+}  
+.card__name{
+  position: absolute;
+  left: -25%;
+  top: 0;
+  width: 3.5rem;
+  height: 100%;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  background-color: var(--dark-color);
+  color: var(--second-color);
+  font-weight: bold;
+  transition: .5s;
+}
+@media screen and (min-width: 1200px) {
+ 
+  .title-shop{
+      margin: 0 10rem;
+  }
+  .bd-grid{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  :root{
+  --h1-font-size: 2rem;
+  --normal-font-size: 1rem;
+  --smaller-font-size: 0.813rem;
+
+
+  }
 }
