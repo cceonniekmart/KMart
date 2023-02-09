@@ -54,6 +54,7 @@ body{
   display: inline-block;
 }
 #intro{
+  margin-top: 1em;
   flex-direction: column;
   text-align: center;
   font-size: 1.8rem;
@@ -64,7 +65,7 @@ body{
   flex-direction: column;
   margin: auto;
   text-align: center;
-  font-size: 10rem;
+  font-size: 9rem;
   font-weight: bold;
   font-family: 'Pathway Gothic One', sans-serif;
 }
