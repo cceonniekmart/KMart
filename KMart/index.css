@@ -41,11 +41,11 @@ body{
     margin: 1.3em 2rem; 
 }
 #homebodyTxt{
-    width: 65%;
+    width: 60%;
     display: inline-block;
 }
 #homebodyCarousel{
-    width: 35%;
+    width: 40%;
     display: inline-block;
 }
 #intro{
@@ -97,7 +97,6 @@ ul#shpctg>li:hover, ul.card-text>li:hover {
     text-decoration: none;
     color: black
 }
-*/
 
 ul {
     margin: 0px;
@@ -259,3 +258,4 @@ ul {
   font-size: 14px;
   color: #000000;
 }
+*/
