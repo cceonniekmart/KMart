@@ -79,8 +79,8 @@ a#homeBtn{
 }
 
 nav{
-  background:#DC143C;
-  top: 0;
+ 
+  top: 10px;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -103,17 +103,25 @@ nav .wrapper {
 .nav-links li a{
   text-decoration: none;
   color: white;
-  padding: 10px 15px;
+  padding: 30px 15px;
   font-size: 25px;
 }
+
 .nav-links li a:hover{
   background: #142B48;
   text-decoration: none;
   color: white;
+  border-radius: 5px;
   
 }
 .nav-links li {
   list-style: none;
+}
+.nav-links li:hover .mega-box {
+  top: 75px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
 }
 .mega-box{
   position: absolute;
@@ -122,18 +130,20 @@ nav .wrapper {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease;
+ 
 }
 .mega-box .content{
-  background-color: black;
+  background-color: white;
   padding: 25px 20px;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  border-radius: 5px;
 }
 .content .row{
   width: calc(25% - 30px);
   line-height: 45px;
+  
 }
 .content .row:nth-child(1),
 .content .row:nth-child(2){
@@ -146,18 +156,21 @@ nav .wrapper {
 }
 .row .mega-links li{
   padding: 0 20px;
+  
 }
 .row .mega-links li a{
   padding: 0 20px;
   font-size: 15px;
   display: block;
+  color: black;
+  
 }
 
 
 /*Products*/  
 h1{
   font-size: var(--h1-font-size);
-  margin-top: 100px;
+  top: 100px;
 }
 a{
   text-decoration: none;
@@ -193,7 +206,7 @@ img{
   margin-right: 2.5rem;
   align-items: center;
   gap: 2rem;
-  margin-top: 3.5rem;
+  margin-top: 6.5rem;
 }
 
 .card{
