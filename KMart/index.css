@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@500&family=Montserrat+Alternates:wght@500&family=Montserrat:ital,wght@1,800&family=Pathway+Gothic+One&family=Poppins:wght@700&family=Press+Start+2P&family=Righteous&family=Rowdies&family=Titillium+Web:wght@200&display=swap');
 
 
+@keyframes float-in {
+  0% {
+    opacity: 0;
+    top: -50px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
 /*Main*/
 body{
   background-image: url(images/HomeBG.png);
   background-size: cover;
   overflow: hidden;
+  animation: float-in 1s ease-out forwards;
+  position: relative;
+  top: -50px;
+  opacity: 0;
 }
 *{
   color: white;
@@ -17,7 +32,7 @@ body{
   padding: .5rem 0rem;
   margin-top: -.5rem;
 }
-#logo{
+#logo{  
   height: 4.6rem;
   width: 4.6rem;
   margin-left: 2rem;
@@ -38,8 +53,8 @@ body{
   background-color: rgb(238, 238, 238);
   color: blue;
 }
-#rightNB{
-  margin-right: 2rem;
+ul.ml-auto{
+  margin-right: 3rem;
 }
 
 /*Content - Home Page*/
