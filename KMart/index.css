@@ -5,6 +5,7 @@
 body{
   background-image: url(/KMart/images/HomePageBG.png);
   background-size: cover;
+  overflow: hidden;
 }
 
 /*Navigation Bar*/

@@ -55,6 +55,7 @@ h1#map-title{
     font-family: 'Pathway Gothic One', sans-serif;
     font-weight: bold;
     font-size: 5em;
+    text-align: center;
 }
 iframe{
     width: 80%;
