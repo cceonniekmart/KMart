@@ -21,7 +21,7 @@
 }
 /*Main*/
 body{
-    background-image: url(/KMart/images/BGImg.png);
+    background-image: url(images/BGImg.png);
     background-size: cover;
     color: var(--dark-color);
     font-family: var(--font);
@@ -143,7 +143,6 @@ div.card__precis div{
 .card_preci--before{
   font-size: var(--smaller-font-size);
   color: var(--before);
-  text-decoration: line-through;
 }
 .card_preci--now{
   font-size: var(--h3-font-size);
