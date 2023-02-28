@@ -47,6 +47,29 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+a#homeBtn{
+  background-color: rgb(95 , 80, 137);
+  position: fixed;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 100%;
+  bottom: 40px;
+  right: 40px;
+  outline: none;
+  z-index: 99;
+  cursor: pointer;
+  padding: none;
+  animation: none;
+}
+#homeBtnimg{
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*Navigation Bar*/
 .container-fluid{
   padding: .5rem 0rem;
