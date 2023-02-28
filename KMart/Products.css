@@ -91,6 +91,8 @@ img{
 .title-shop{
   position: relative;
   margin: 0 2,5rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 .title-shop::after{
   content: '';
