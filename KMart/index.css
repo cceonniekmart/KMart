@@ -3,15 +3,17 @@
 
 /*Main*/
 body{
-  background-image: url(images/HomePageBG.png);
+  background-image: url(images/HomeBG.png);
   background-size: cover;
   overflow: hidden;
+}
+*{
+  color: white;
 }
 
 /*Navigation Bar*/
 .container-fluid{
   padding: .5rem 0rem;
-  background-color: white;
   margin-top: -.5rem;
 }
 #logo{
@@ -24,11 +26,12 @@ body{
   font-size: 1.3em;
   font-weight: bold;
   letter-spacing: 1px;
-  color: gray;
+  color: white;
   font-family: 'Maven Pro', sans-serif;
 }
 .nav-link:hover{
   border-bottom: .5px blue solid;
+  background-color: #142B48;
   color: blue;
 }
 #nav-link-highlight{
