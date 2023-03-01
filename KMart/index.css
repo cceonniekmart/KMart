@@ -229,9 +229,10 @@ nav{
   font-weight: 800;
 }
 #title{
+ 
   flex-direction: column;
   margin: auto;
-  margin-left: 1em;
+  margin-left: .1rem;
   text-align: left;
   font-size: 6.3rem;
   font-weight: bold;
