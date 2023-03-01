@@ -113,9 +113,7 @@ nav{
 .nav__link{
   padding: 2rem 1rem;
 }
-.nav__link .dropdown{
-  padding: 2rem 3rem;
-}
+
 .dropdown__link{
   padding: 2rem;
   align-items: center;
