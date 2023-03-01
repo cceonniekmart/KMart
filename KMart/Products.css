@@ -73,8 +73,8 @@ a#homeBtn{
     100% { background-color: #142b48; }
   }
 @keyframes fadeOut {
+  0% { background-color: #142b48;}
   100% { background-color: transparent;}
-    0% { background-color: #142b48;}
 } 
 
 /*Navigation Bar*/
