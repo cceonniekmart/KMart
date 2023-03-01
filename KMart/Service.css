@@ -401,6 +401,16 @@ div.card__precis div{
   }
 }
 
+@keyframes fadeIn {
+  0% { background-color: transparent; }
+  100% { background-color: #142b48; }
+}
+@keyframes fadeOut {
+100% { background-color: transparent;}
+  0% { background-color: #142b48;}
+} 
+
+
 .offcanvas-start{
     width: 50%;
 }

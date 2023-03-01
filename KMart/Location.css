@@ -71,6 +71,14 @@ nav{
 .nav__link{
   padding: 2rem 1rem;
 }
+@keyframes fadeIn {
+    0% { background-color: transparent; }
+    100% { background-color: #142b48; }
+  }
+@keyframes fadeOut {
+  0% { background-color: #142b48;}
+  100% { background-color: transparent;}
+} 
 
 
 .dropdown__link{

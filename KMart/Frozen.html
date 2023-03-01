@@ -99,6 +99,22 @@
         </nav>
     </header>
     <script src="assets/main.js"></script>
+
+    <script>
+        let mybutton = document.getElementById("navBG");
+    
+        window.onscroll = function() {scrollFunction()};
+    
+            function scrollFunction() {
+            if (document.documentElement.scrollTop > 200) {
+                mybutton.style.animation = "fadeIn .7s";
+                mybutton.style.backgroundColor = "#142b48";
+            } else {
+                mybutton.style.animation = "fadeOut .7s";
+                mybutton.style.backgroundColor = "transparent";
+            } 
+        }
+        </script>
     
 
     <!------------------------------------------------------ITEMS------------------------------------------------->    
