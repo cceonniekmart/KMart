@@ -111,8 +111,9 @@ nav{
   padding: 1.4rem 0;
 }
 .nav__link{
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
+
 .dropdown__link{
   padding: 2rem;
   align-items: center;
@@ -256,6 +257,7 @@ nav{
 
 
 }
+
 
 /*Products*/  
 h1{
