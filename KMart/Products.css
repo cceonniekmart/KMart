@@ -112,6 +112,7 @@ nav{
   padding: 2rem 1rem;
 }
 
+
 .dropdown__link{
   padding: 2rem;
   align-items: center;
@@ -134,9 +135,9 @@ nav{
 
 .megamenu{
   position: absolute;
-  width: 100%;
-  top: 7.1rem;
-  left: 0;
+  width: 100rem;
+  top: 8rem;
+  left: -53rem;
   display: flex;
   justify-content: center;
   border-radius: 0 0 5px 5px;
@@ -151,7 +152,7 @@ nav{
 }
 
 .content{
-  background-color: #142b48;
+ 
   display: flex;
   flex-direction: column;
   padding: 1rem 1rem;
@@ -257,7 +258,6 @@ nav{
 }
 
 
-
 /*Products*/  
 h1{
   font-size: var(--h1-font-size);
@@ -267,7 +267,10 @@ a{
   text-decoration: none;
 
 }
-
+img{
+  max-width: 100%;
+  height: auto;
+}
 .title-shop{
   position: relative;
   margin: 0 2,5rem;
