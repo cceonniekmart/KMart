@@ -93,6 +93,22 @@
             </nav>
         </header>
         <script src="assets/main.js"></script>
+
+        <script>
+            let mybutton = document.getElementById("navBG");
+        
+            window.onscroll = function() {scrollFunction()};
+        
+                function scrollFunction() {
+                if (document.documentElement.scrollTop > 200) {
+                    mybutton.style.animation = "fadeIn .7s";
+                    mybutton.style.backgroundColor = "#142b48";
+                } else {
+                    mybutton.style.animation = "fadeOut .7s";
+                    mybutton.style.backgroundColor = "transparent";
+                } 
+            }
+            </script>
     
 
     <!------------------------------------------------------ITEMS------------------------------------------------->  
@@ -153,7 +169,7 @@
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="https://www.facebook.com/koreannfood"><img src="../fblogo.png"></a>
+                                <a href="https://www.facebook.com/koreannfood"><img src="images/fblogo.png"></a>
                             </div>
                         </div>
                     </div>
@@ -165,7 +181,7 @@
                             </div>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="Food.html">Foods</a></li>
+                                <li><a href="BestSeller.html">Best Seller</a></li>
                                 <li><a href="Drinks.html">Drinks</a></li>
                                 <li><a href="Desserts.html">Desserts</a></li>
                                 <li><a href="Service.html">Service</a></li>
