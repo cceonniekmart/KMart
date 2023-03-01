@@ -26,6 +26,7 @@ body{
 }
 *{
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*Navigation Bar*/
@@ -209,7 +210,6 @@ nav{
 
 
 }
-
 
 
 /*Map*/
