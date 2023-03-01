@@ -217,7 +217,7 @@ img{
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   overflow: hidden;
-  background-color: var(--cceonnie);
+  background-color: rgb(255, 255, 255);
   height: 23.375em;
 }
 
@@ -258,12 +258,12 @@ div.card__precis div{
 }
 .card_preci--before{
   font-size: 1.2rem;
-  color: var(--second-color);
+  color: black;
 }
 .card_preci--now{
   font-size: var(--h3-font-size);
   font-weight: bold;
-  color: var(--second-color);
+  color: black;
 }
 .card:hover{
   box-shadow: none;
@@ -287,7 +287,7 @@ div.card__precis div{
   writing-mode: horizontal-tb;
   transform: rotate(0deg);
   text-align: center;
-  background-color: var(--dark-color);
+  background-color: gray;
   color: var(--second-color);
   font-weight: bold;
   transition: .5s;
