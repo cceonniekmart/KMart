@@ -8,58 +8,100 @@
     <title> Condiments | CC Eonnie Korean Mart </title>
     <link href="Products.css" rel="stylesheet" type="text/css">
     <link rel = "icon" href ="images/logo.png"type = "image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-<!------------------------------------------------------NAVBAR------------------------------------------------->    
+<!------------------------------------------------------NAVBAR------------------------------------------------->   
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 
-    <a id="homeBtn" href="https://www.facebook.com/messages/t/339215479954895" target="_blank">
-        <img id="homeBtnimg" src="images/logo.png" alt="Logo"> 
-    </a>
 
-    <nav>
-            <div class="wrapper">
-                <div class="logo"> <a href="index.html"><img id="logo" src="images/logo.png"alt="Home"></a> </div>
-                <ul class="nav-links">
-                    <li>
-                        <a href="#"><img src="images/category.png"></a>
-                        <div class="mega-box">
-                            <div class="content">
-                                <div class="row">
-                                    <ul class="mega-links">
-                                        <li><a href="#">Best Seller Products</a></li>
-                                        <li><a href="#">Noodles</a></li>
-                                        <li><a href="#">Wet goods</a></li>
-                                    </ul>
-                                </div>
-                                <div class="row">
-                                    <ul class="mega-links">
-                                        <li><a href="#">Ready to eat</a></li>
-                                        <li><a href="#">Frozen Food</a></li>
-                                        <li><a href="#">Condiments</a></li>
-                                    </ul>
-                                </div>
-                                <div class="row">
-                                    <ul class="mega-links">
-                                        <li><a href="#">Snacks</a></li>
-                                        <li><a href="#">Beverages</a></li>
-                                        <li><a href="#">Desserts</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="Service.html"><img src="images/homeservice.png"></a></li>
-                    <li><a href="Location.html"><img src="images/location1.png"></a></li>
-                    <li><a href="#"><img src="images/about1.png"></a></li>
-                </ul>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html"><img src="images/logo.png"alt="Home"></a></div>
+            <div class="toggle__menu" id="toggle-menu">
+                <i class='bx bx-grid-alt'></i>            
+
             </div>
+            <ul class="nav__list" id="nav-menu">
+                <div class="close__menu" id="close-menu">
+                    <i class='bx bx-x' style='color:#ffffff' ></i>
+                </div>
+                <li class="nav__item dropdown"><a href="#" class="dropdown__link"><img src="images/category.png"></i></a>
+                <div class="megamenu">
+                    <ul class="content">
+                        <li class="megamenu__item">
+                            <div class="megamenu__link">
+                                 <a href="BS.html">Best Seller</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="content">
+                        <li class="megamenu__item">
+                            <div class="megamenu__link">
+                                <a href="Noodles.html">Noodles</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="content">
+                        <li class="megamenu__item">
+                            <div class="megamenu__link">
+                                 <a href="CG.html">Can goods</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="content">
+                        <li class="megamenu__item">
+                            <div class="megamenu__link">
+                                <a href="Condiments.html">Condiments</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="content">
+                        <li class="megamenu__item">
+                            <div class="megamenu__link">
+                                <a href="DG.html">Dry goods</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="content">    
+                        <li class="megamenu__item">
+                            <div class="megamenu__link">
+                                <a href="FF.html">Frozen Food</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="content">
+                        <li class="megamenu__item">
+                            <div class="megamenu__link">
+                                <a href="Drinks.html">Beverages</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="content">
+                        <li class="megamenu__item">
+                            <div class="megamenu__link">
+                                <a href="Desserts.html">Desserts</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                </li>
+                <li class="nav__item"><a href="Service.html" class="nav__link"><img src="images/homeservice.png"></a></li>
+                <li class="nav__item"><a href="Location.html" class="nav__link"><img src="images/location1.png"></a></li>
+                <li class="nav__item"><a href="About.html" class="nav__link"><img src="images/about1.png"></a></li>             
+            </ul>
         </nav>
+    </header>
+    <script src="assets/main.js"></script>
+
+
     
 
-    <!------------------------------------------------------ITEMS------------------------------------------------->    
+
+
+
+<!------------------------------------------------------ITEMS------------------------------------------------->    
     <h1 class="title-shop"> CONDIMENTS </h1>
 
     <main class="main bd-grid">
