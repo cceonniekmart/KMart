@@ -104,22 +104,12 @@ nav{
   opacity: 0;
   visibility: hidden;
   border-radius: 5px;
-
-  
-
 }
 
 .content{
- 
   display: flex;
   flex-direction: column;
   padding: 1rem 1rem;
-  
-  
- 
-  
-
-
 }
 
 .megamenu__item{
