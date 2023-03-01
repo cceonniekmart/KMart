@@ -20,7 +20,7 @@
         <img id="homeBtnimg" src="images/logo.png" alt="Logo"> 
     </a>
 
-    <header>
+    <header id="navBG">
         <nav>
             <div class="logo"><a href="index.html"><img src="images/logo.png"alt="Home"></a></div>
             <div class="toggle__menu" id="toggle-menu">
@@ -100,6 +100,21 @@
     </header>
     <script src="assets/main.js"></script>
     
+    <script>
+        let mybutton = document.getElementById("navBG");
+    
+        window.onscroll = function() {scrollFunction()};
+    
+            function scrollFunction() {
+            if (document.documentElement.scrollTop > 200) {
+                mybutton.style.animation = "fadeIn 1s";
+                mybutton.style.backgroundColor = "#142b48";
+            } else {
+                mybutton.style.animation = "fadeOut 1s";
+                mybutton.style.backgroundColor = "transparent";
+            } 
+        }
+        </script>
 
     <!------------------------------------------------------ITEMS------------------------------------------------->    
     <h1 class="title-shop"> DRY GOODS </h1>
